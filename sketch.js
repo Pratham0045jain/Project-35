@@ -1,9 +1,25 @@
+var database;
+var voterCount;
+var appState;
+
+var app;
+var form;
+var voter;
+
+
 function setup() {
-  createCanvas(800,400);
-  createSprite(400, 200, 50, 50);
+  database = firebase.database();
+  createCanvas(500,500);
+
+  app = new App();
+  app.getState();
+  app.start();
+
+  console.log("hello");
+  
 }
 
 function draw() {
-  background(255,255,255);  
-  drawSprites();
+ background("white");
+ console.log("hello");
 }
