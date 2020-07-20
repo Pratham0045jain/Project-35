@@ -1,6 +1,6 @@
 var database;
-var voterCount;
-var appState;
+var voterCount = 0;
+var appState = 0;
 
 var app;
 var form;

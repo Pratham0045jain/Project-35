@@ -2,10 +2,10 @@ class Form{
     constructor(){}
     
     display(){
-     var input = createInput('name');
+     var input = createInput('name of Class Representative');
      input.position(350,100);
 
-     var button = createButton('click here to VOTE!');
+     var button = createButton('click here to submit your VOTE!');
      button.position(350,150);
 
      var confermation = createElement('h2')
